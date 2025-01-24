@@ -32,22 +32,22 @@
                         bindings = <
    &kp ESC      &kp PT_Q        &kp PT_W        &kp PT_E        &kp PT_R        &kp PT_T                &kp PT_Y        &kp PT_U        &kp PT_I        &kp PT_O        &kp PT_P        &kp DEL
    &kp LCTRL    &kp PT_A        &kp PT_S        &kp PT_D        &kp PT_F        &kp PT_G                &kp PT_H        &kp PT_J        &kp PT_K        &kp PT_L        &kp PT_CCED     &kp PT_TILD
-   &mt MEH CAPS &kp PT_Z      &kp PT_X        &kp PT_C        &kp PT_V        &kp PT_B                &kp PT_N        &kp PT_M        &kp PT_COMM     &kp PT_DOT      &kp PT_MINS     &kp PT_MORD
+   &mt MEH CAPS &kp PT_Z        &kp PT_X        &kp PT_C        &kp PT_V        &kp PT_B                &kp PT_N        &kp PT_M        &kp PT_COMM     &kp PT_DOT      &kp PT_MINS     &kp PT_MORD
                                                 &kp LGUI        &lt LOWER TAB   &mt LSHIFT SPACE        &lt RAISE ENTER &lt LOWER BSPC  &mt LALT PT_ACUT
                         >;
                 };
 
                 lower_layer {
 // ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-// |     $      |       @       |       #       |       '       |       (       |       )       |       |       -       |       /       |       7       |       8       |       9       |               |
-// |     %      |       !       |       ?       |       "       |       [       |       ]       |       |       +       |       *       |       4       |       5       |       6       |               |
-// |     <      |       >       |       |       |       &       |       {       |       }       |       |       =       |       0       |       1       |       2       |       3       |       €       |
+// |     $      |       #       |       @       |       &       |       {       |       }       |       |       +       |       *       |       7       |       8       |       9       |       €       |
+// |     |      |       !       |       ?       |       "       |       (       |       )       |       |       -       |       /       |       4       |       5       |       6       |       ,       |
+// |     <      |       >       |       %       |       '       |       [       |       ]       |       |       =       |       0       |       1       |       2       |       3       |       .       |
 //
 //                                              |               |               |               |       |               |               |               |
                         bindings = <
-   &kp PT_DLR   &kp PT_AT       &kp PT_HASH     &kp PT_QUOT     &kp PT_LPRN     &kp PT_RPRN             &kp PT_MINS     &kp PT_SLSH     &kp PT_7        &kp PT_8        &kp PT_9        xxx
-   &kp PT_PERC  &kp PT_EXLM     &kp PT_QUES     &kp PT_DQUO     &kp PT_LBRC     &kp PT_RBRC             &kp PT_PLUS     &kp PT_ASTR     &kp PT_4        &kp PT_5        &kp PT_6        xxx
-   &kp PT_LABK  &kp PT_RABK     &kp PT_PIPE     &kp PT_AMPR     &kp PT_LCBR     &kp PT_RCBR             &kp PT_EQL      &kp PT_0        &kp PT_1        &kp PT_2        &kp PT_3        &kp PT_EURO
+   &kp PT_DLR   &kp PT_HASH     &kp PT_AT       &kp PT_AMPR     &kp PT_LCBR     &kp PT_RCBR             &kp PT_PLUS     &kp PT_ASTR     &kp PT_7        &kp PT_8        &kp PT_9        &kp PT_EURO
+   &kp PT_PIPE  &kp PT_EXLM     &kp PT_QUES     &kp PT_DQUO     &kp PT_LPRN     &kp PT_RPRN             &kp PT_MINS     &kp PT_SLSH     &kp PT_4        &kp PT_5        &kp PT_6        &kp PT_COMM
+   &kp PT_LABK  &kp PT_RABK     &kp PT_PERC     &kp PT_QUOT     &kp PT_LBRC     &kp PT_RBRC             &kp PT_EQL      &kp PT_0        &kp PT_1        &kp PT_2        &kp PT_3        &kp PT_DOT
                                                 xxx             &mo EXTRA       xxx                     xxx             &mo EXTRA       xxx
                         >;
                 };
